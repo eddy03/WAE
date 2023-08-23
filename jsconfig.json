@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@config/*": ["lib/config/*"],
+      "@comp/*": ["components/*"],
+      "@/*": ["./*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "public"
+  ]
+}
